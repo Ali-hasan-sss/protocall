@@ -1,0 +1,43 @@
+<html>
+<head>
+  <style>
+    html {
+      font-family: "Montserrat", sans-serif;
+    }
+
+    p {
+      color: #170052;
+    }
+
+    .button {
+      color: #fff;
+      border: 1px solid #170052;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      cursor: pointer;
+      background-color: #170052;
+      text-decoration: none;
+      border-radius: 5px;
+      width:25%;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td>
+        <p>Hi {{firstName}},</p>
+        <p>We are excited to have you join us. To finish your account, please verify your email address
+          using the following code.</p>
+        <p style="margin: 30px 0px;" class="button">{{otp}}</p>
+        <p>Cheers,</p>
+        <p>Protocall Team</p>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
